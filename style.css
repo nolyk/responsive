@@ -1,0 +1,26 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    height: 500px;
+}
+.card1{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+@media(max-width:576px){
+    .card1{
+        height: 500px;
+        width: 500px;
+        background-color: red;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        justify-content: center;
+    }
+}   
